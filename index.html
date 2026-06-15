@@ -9,9 +9,70 @@
     <meta name="robots" content="index, follow">
     <title>Streets</title>
     <link rel="stylesheet" href="streets.css">
+    <script src="https://kit.fontawesome.com/548f5098d2.js" crossorigin="anonymous"></script>
     <script src="streets.js"></script>
-</head><body>
-    <h1>Streets</h1>
+</head>
 
-    <h2> En cours de développement... </h2>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="forum"><a href="index.html"> Streets Forum <i class="fa-solid fa-envelope"></i></a></li>
+                <li class="fashion"><a href="streets.html">Streets Fashion <i class="fa-solid fa-camera"></i> </a></li>
+                 <li class="titre"> Streets <br> Forum </li>
+                <li class="links"><a href="profile.html"> Streets Links <i class="fa-solid fa-link"></i></a></li>
+                <li class="videos"><a href="settings.html"> Streets Videos <i class="fa-solid fa-video"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+<article class="post">
+    
+    <!-- En-tête du post : photo profil + infos -->
+    <div class="post-header">
+        <img src="photosergi.jpeg" alt="Photo de profil de l'utilisateur" class="profile-pic">
+        <div class="post-info">
+            <span class="username"> Vaillant777 </span>
+            <span class="timestamp">Il y a 2 heures depuis Paris. </span>
+            <span class="Badges"> <i class="fa-solid fa-crown"></i> Badges : Manga, One Piece, +2 </span>
+        </div>
+    </div>
+
+    <!-- Corps du post : texte + image -->
+    <div class="post-body">
+        Le dernier arc de One Piece est incroyable ! L'histoire est tellement captivante et les personnages sont plus développés que jamais. J'adore la façon dont Oda a réussi à maintenir l'intrigue tout en introduisant de nouveaux éléments surprenants. C'est vraiment un chef-d'œuvre de la narration manga.
+        <img src="luffy.jpg" alt="Image du post" class="post-image">
+    </div>
+
+    <!-- Footer du post : barre commentaire + icônes réactions -->
+    <div class="post-footer">
+        <div class="comment-bar">
+            <input type="text" placeholder="Ajouter un commentaire..." class="comment-input">
+            <button class="comment-button">Envoyer</button>
+        </div>
+        <div class="reactions">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <i class="fa-solid fa-thumbs-down"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-face-smile"></i>
+            <i class="fa-solid fa-retweet"></i>
+            <i class="fa-solid fa-bookmark"></i>
+        </div>
+    </div>
+</article>
+    <footer>
+     <div class="footer-content">
+        <div class="search-bar">
+     <input type="text" placeholder="Rechercher..." class="search-input">
+     <button class="search-button">Rechercher</button>
+        </div>
+        <div class="settings">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-brands fa-web-awesome"></i>
+        <i class="fa-solid fa-message"></i>
+        <i class="fa-solid fa-gear"></i>
+        </div>
+     </div>
+    </footer>
+</body>
 </html>
