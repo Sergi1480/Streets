@@ -1,1 +1,185 @@
-streets
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center; 
+
+}
+
+.menu li {
+    border-right: 1px solid #444;
+    padding: 15px;
+}
+
+.menu li:last-child {
+    border-right: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.commentaire {
+   box-shadow: 0 4px 8px rgba(68, 68, 68, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.titre {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, orange, #ff7f00, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+.fa-solid, .fa-brands {
+    background: linear-gradient(to right, red, orange, #ff7f00, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.forum {
+   filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-body {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.post {
+    background-color:rgb(53, 53, 53);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px grey;
+        border-radius: 5px;
+        padding: 10px;
+max-width: 800px;
+margin: 0 auto;
+flex-grow: 1;
+flex-basis: 400px;
+flex-shrink: 1;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.comment-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comment-button:hover {
+    background-color: #666;
+}
+
+.footer-content {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.comment-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.reactions {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.settings {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.username {
+    font-weight: bold;
+    color: gold;
+    border-right: 1px solid #444;
+    padding-right: 10px;
+}
+
+.timestamp {
+    color: #888;
+    font-size: 0.9em;
+    margin-left: 10px;
+    border-right: 1px solid #444;
+    padding-right: 10px;
+}
+
+.badges {
+    display: flex;
+    gap: 5px;
+}
